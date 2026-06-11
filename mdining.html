@@ -1,179 +1,208 @@
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining Table Products</title>
 
-<title>Dining Table Products</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-<link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        .img-prod {
+            border: 1px solid #ddd;
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 25px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .img-prod img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .Products-img {
+            padding-top: 10px;
+        }
+
+        .amount {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .btn-danger {
+            margin-top: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img14.jpg" width=100%; height=250px;
-<div class="Products-img">
-<p class="amout">Urban Dining Pro </p>
-<p class="amout">Rs.20,000</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-</div>
+<div class="container">
+    <h1>Dining Table Products</h1>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img15.jpg"width=100%; height=250px;
-<div class="Products-img">
-<p class="amout">Elite Woodcraft Table</p>
-<p class="amout">Rs.19,999</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-</div>
+    <div class="row">
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img16.jpg" width=100%; height=250px;
-<div class="Products-img">
-<p class="amout">Heritage Dining Set</p>
-<p class="amout">Rs.18,999</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-</div>
+        <!-- Product 1 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img14.jpg" alt="Urban Dining Pro">
+                <div class="Products-img">
+                    <p class="amount">Urban Dining Pro</p>
+                    <p class="amount">Rs.20,000</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img17.jpg" height=250px;
-<div class="Products-img">
-<p class="amout">Prime Wooden Dining </p>
-<p class="amout">Rs.18,000</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-</div>
+        <!-- Product 2 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img15.jpg" alt="Elite Woodcraft Table">
+                <div class="Products-img">
+                    <p class="amount">Elite Woodcraft Table</p>
+                    <p class="amount">Rs.19,999</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Product 3 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img16.jpg" alt="Heritage Dining Set">
+                <div class="Products-img">
+                    <p class="amount">Heritage Dining Set</p>
+                    <p class="amount">Rs.18,999</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Product 4 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img17.jpg" alt="Prime Wooden Dining">
+                <div class="Products-img">
+                    <p class="amount">Prime Wooden Dining</p>
+                    <p class="amount">Rs.18,000</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<class="container md-4">
+        <!-- Product 5 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img18.jpg" alt="Cozy Family Table">
+                <div class="Products-img">
+                    <p class="amount">Cozy Family Table</p>
+                    <p class="amount">Rs.19,799</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Product 6 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img19.jpg" alt="Classic Teak Wood Dining Table">
+                <div class="Products-img">
+                    <p class="amount">Classic Teak Wood Dining Table</p>
+                    <p class="amount">Rs.20,599</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<div class="row">
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img18.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Cozy Famil Table</p>
-<p class="amout">Rs.19,799</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
+        <!-- Product 7 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img20.jpg" alt="Elegant Family Dining Set">
+                <div class="Products-img">
+                    <p class="amount">Elegant Family Dining Set</p>
+                    <p class="amount">Rs.19,000</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img19.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Classic Teak Wood Dining Table</p>
-<p class="amout">Rs.20,599</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
+        <!-- Product 8 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img21.jpg" alt="Royal Wood Dining Set">
+                <div class="Products-img">
+                    <p class="amount">Royal Wood Dining Set</p>
+                    <p class="amount">Rs.14,499</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img20.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Elegant Family Dining Set</p>
-<p class="amout">Rs.19,000</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
+        <!-- Product 9 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img22.jpg" alt="Modern Sheesham Dining Table">
+                <div class="Products-img">
+                    <p class="amount">Modern Sheesham Dining Table</p>
+                    <p class="amount">Rs.17,999</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img21.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Royal Wood Dining Set</p>
-<p class="amout">Rs.14,499</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
+        <!-- Product 10 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img23.jpg" alt="Rio Solid Wood 2-Seater Dining Table">
+                <div class="Products-img">
+                    <p class="amount">Rio Solid Wood 2-Seater Dining Table</p>
+                    <p class="amount">Rs.17,999</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Product 11 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img17.jpg" alt="Brixton Premium Dining Set">
+                <div class="Products-img">
+                    <p class="amount">Brixton Premium Dining Set</p>
+                    <p class="amount">Rs.14,089</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-<class="container md-4">
+        <!-- Product 12 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="img-prod">
+                <img src="images/img19.jpg" alt="Latest Seater Dining Table">
+                <div class="Products-img">
+                    <p class="amount">Latest Seater Dining Table</p>
+                    <p class="amount">Rs.14,344</p>
+                    <button class="btn btn-danger">BUY NOW</button>
+                </div>
+            </div>
+        </div>
 
-
-<div class="row">
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src= width=100%; height=250px;
-class="Products-img">
-<p class="amout">Modern Sheesham Dining Table</p>
-<p class="amout">Rs.17,999</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img23.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">rio Solid Wood 2-Seater Dining Table </p>
-<p class="amout">Rs.17,999</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img17.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Brixton Premium Dining Set</p>
-<p class="amout">Rs.14,089</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6">
-<div class="img-prod">
-<img src="images/img19.jpg" width=100%; height=250px;
-class="Products-img">
-<p class="amout">Latest  Seater Dining Table </p>
-<p class="amout">Rs.14,344</p>
-<button class="btn btn-red">
-BUY NOW
-</button>
-</div>
+    </div>
 </div>
 
 </body>
